@@ -1,0 +1,2 @@
+# HIF_PEPG---HYBRID-INTELLIGENCE-FRAMEWORK-FOR-PREDICTIVE-EDUCATIONAL-PATHWAYS-AND-GUIDANCE
+The (HIF-PEPG) aims to revolutionize post-10th educational decision-making for Indian students by creating an AI-powered, data-driven recommendation platform. The system addresses the critical gap in accessible, transparent, and personalized guidance for students navigating the complex Indian educational landscape after Class 10
