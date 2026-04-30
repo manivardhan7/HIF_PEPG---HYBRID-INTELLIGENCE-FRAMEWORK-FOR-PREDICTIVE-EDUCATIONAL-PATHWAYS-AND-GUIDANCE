@@ -1,0 +1,310 @@
+You are a senior full-stack developer, AI/ML engineer, and system architect. Your task is to design and build a complete production-ready web platform called **“Hybrid Intelligence Framework for Predictive Educational Pathways and Guidance (HIF-PEPG)”** using Django.
+
+We have already completed **data collection, scraping, and storage**, including:
+
+* Institutional data (schools, colleges, polytechnics, coaching institutes)
+* Academic performance data (JEE/NEET/state boards)
+* Student-related datasets (generalized profiling patterns)
+* Location-based institutional mapping
+
+Now your goal is to **build the full web application system** that is highly **user-friendly**, especially for **students who just passed 10th class**, along with parents.
+
+---
+
+### 🔹 CORE OBJECTIVE
+
+Develop a **Django-based intelligent educational guidance platform** that:
+
+* Helps students explore career and educational pathways after 10th
+* Recommends best institutions based on profile, marks, and interests
+* Provides comparison, prediction, and visualization tools
+* Is simple, intuitive, multilingual, and accessible
+
+---
+
+# 🔹 SYSTEM DEVELOPMENT APPROACH (MODULE-WISE IMPLEMENTATION)
+
+Follow a **modular architecture**, where each module is both:
+
+1. A **backend service (Django app)**
+2. A **frontend feature (UI/UX component)**
+
+---
+
+## 🧩 MODULE 1: Institution Discovery & Filtering System
+
+**Goal:** Help students explore colleges easily
+
+### Features:
+
+* Display all colleges (Intermediate, Polytechnic, ITI, etc.)
+* Filters:
+
+  * Location (State, District, Nearby)
+  * Course (MPC, BiPC, Diploma, etc.)
+  * Fees range
+  * Pass percentage
+  * Entrance exams
+* Search functionality
+* “Nearby colleges” using location-based filtering
+
+### Output:
+
+* Clean listing UI (cards/grid)
+* Filter sidebar (simple for 10th students)
+
+---
+
+## 🧩 MODULE 2: College Comparison Engine
+
+**Goal:** Help students compare institutions
+
+### Features:
+
+* Select 2–4 colleges
+* Compare:
+
+  * Fees
+  * Results
+  * Facilities
+  * Reviews
+  * Placement trends
+* Visual comparison (charts)
+
+### Output:
+
+* Side-by-side comparison table
+* Graph-based insights
+
+---
+
+## 🧩 MODULE 3: Student Profile & Assessment Module
+
+**Goal:** Understand the student
+
+### Features:
+
+* Simple onboarding:
+
+  * Marks (10th)
+  * Interests (science, commerce, arts, etc.)
+  * Career goals
+* Optional aptitude quiz
+* Personality-based suggestions
+
+### Output:
+
+* Student profile dashboard
+* Profile score and preferences
+
+---
+
+## 🧩 MODULE 4: AI Recommendation System
+
+**Goal:** Suggest best pathways
+
+### Features:
+
+* Recommend:
+
+  * Courses (MPC, BiPC, Diploma, etc.)
+  * Colleges
+* Based on:
+
+  * Marks
+  * Interests
+  * Location
+* Hybrid approach:
+
+  * Content-based filtering
+  * Collaborative filtering
+
+### Output:
+
+* “Best Path for You” section
+* Top 5 recommended colleges
+
+---
+
+## 🧩 MODULE 5: Predictive Analytics Dashboard
+
+**Goal:** Show future insights
+
+### Features:
+
+* Predict:
+
+  * Success probability in streams
+  * College performance trends
+* Show:
+
+  * Pass percentage trends
+  * Cutoff trends
+
+### Output:
+
+* Graphs (Chart.js)
+* Easy-to-understand visuals
+
+---
+
+## 🧩 MODULE 6: Career Pathway Explorer
+
+**Goal:** Guide after 10th
+
+### Features:
+
+* Show paths:
+
+  * Intermediate → Degree → Job
+  * Diploma → Lateral Entry → Career
+* Flow-based UI (roadmaps)
+
+### Output:
+
+* Visual career maps
+* Step-by-step journey
+
+---
+
+## 🧩 MODULE 7: Location Intelligence Module
+
+**Goal:** Personalized local suggestions
+
+### Features:
+
+* Detect user location
+* Show nearby institutions
+* Map integration
+
+### Output:
+
+* Map-based UI
+* Distance-based sorting
+
+---
+
+## 🧩 MODULE 8: Feedback & Review System
+
+**Goal:** Build trust
+
+### Features:
+
+* Student reviews
+* Ratings
+* Feedback forms
+
+---
+
+## 🧩 MODULE 9: Admin Panel & Data Management
+
+**Goal:** Control system
+
+### Features:
+
+* Manage:
+
+  * Colleges
+  * Courses
+  * Users
+* Analytics overview
+
+---
+
+## 🧩 MODULE 10: UI/UX Optimization (VERY IMPORTANT)
+
+**Target Users:** 10th pass students (non-technical)
+
+### Requirements:
+
+* Very simple language
+* Minimal steps
+* Visual-first design
+* Mobile-first approach
+* Multilingual support (English + regional languages)
+
+---
+
+## 🧩 MODULE 11: Accessibility & Smart Features
+
+* Voice assistance
+* Offline-lite mode
+* Guided onboarding (“What should I do after 10th?”)
+
+---
+
+# 🔹 TECH STACK REQUIREMENTS
+
+### Backend:
+
+* Django + Django REST Framework
+* PostgreSQL
+* Redis (for caching)
+
+### Frontend:
+
+* HTML, CSS, JavaScript
+* Bootstrap / Tailwind
+* Chart.js / D3.js
+
+### AI/ML:
+
+* Scikit-learn / TensorFlow
+* NLP for recommendations
+
+### Deployment:
+
+* AWS / Azure
+* Docker (optional)
+
+---
+
+# 🔹 ARCHITECTURE REQUIREMENTS
+
+* Follow **microservices-inspired modular Django apps**
+* REST APIs for all services
+* Scalable and maintainable code
+* Secure handling of student data
+
+---
+
+# 🔹 OUTPUT EXPECTATIONS
+
+You must generate:
+
+1. Project folder structure
+2. Django apps for each module
+3. Models, views, serializers
+4. API endpoints
+5. Frontend templates
+6. Sample UI wireframes (text-based)
+7. Integration between modules
+8. Step-by-step implementation plan
+
+---
+
+# 🔹 SPECIAL INSTRUCTION
+
+* Always prioritize **simplicity and clarity for 10th students**
+* Avoid complex jargon in UI
+* Make it feel like a **career guide, not a technical tool**
+* Ensure smooth flow:
+
+  * “I passed 10th → What next?” → Full guidance
+
+---
+
+# 🔹 FINAL GOAL
+
+Build a **complete intelligent educational guidance platform** that:
+
+* Acts like a **personal career counselor**
+* Uses **AI + real data**
+* Helps students make **correct life decisions early**
+
+---
+
+Now start implementing **module by module**, beginning with:
+👉 Module 1: Institution Discovery & Filtering System
+
+Provide complete code and explanation for each step.
